@@ -1,4 +1,4 @@
-# Curso Mongo
+# [Curso Mongo](https://cursos.alura.com.br/course/mongodb)
 
 ## Aula 1
 
@@ -86,4 +86,54 @@ db.alunos.find({"curso.nome": {$in:
         "Ciências da computação"
     ]
  }}).pretty()
+```
+
+## Aula 3
+
+* Fazer uma substituição nada mais é do que fazer uma atualização no documento, então usamos update({"_id": "[id do documento]".... Aqui substituiremos o usuário do id abaixo pela Daniela:
+
+```javascript
+db.alunos.update({"_id": ObjectId("1234565435")}, 
+{
+    "nome": "Daniela",
+    "data_nascimento": new Date(1997, 07, 17),
+    "notas": [10, 9, 4],
+    "curso": {
+        "nome": "Moda"
+    },
+    "habilidades": [
+        {
+            "nome": "Alemão",
+            "nível": "Básico"
+        }
+    ] 
+}
+)
+```
+
+* Para substituir somente um campo do documento basta usar o operador $set passando um json com o campo e o novo valor
+
+```javascript
+db.alunos.update({"curso.nome": "Moda"}, {$set:
+{"curso.nome": "Administração"}
+})
+```
+
+* Por padrão o método update só atualiza um documento, para que ele atualize mais de um precisamos passar também o parâmetro multi:true
+
+```javascript
+db.alunos.update({"curso.nome": "Moda"}, {$set:
+{"curso.nome": "Administração"}}, {multi:true}
+)
+```
+
+* Para adicionar um valor a um array já existente usamos o operador `$push`
+
+```javascript
+db.alunos.update({"nome":"Felipe"}, {$push:{notas: 8.5}})
+```
+* Para adicionar mais de um valor a um array já existente usamos o modificador $each em conjunto com o operador $push
+
+```javascript
+db.alunos.update({"nome":"Guilherme"}, {$push:{"notas":{$each:[8.5, 10]}}})
 ```
