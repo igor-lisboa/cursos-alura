@@ -1,34 +1,38 @@
-#*****************************************
 # AULA 5
-#*****************************************
-
+```
 GET catalogo/_search?q=musica
-
+```
+```
 GET catalogo/_search?q=música
-
+```
+```
 GET catalogo/_analyze
 {
   "text": "Eu nasci há 10 mil (sim, isso mesmo, 10 mil) anos atrás"
 }
-
+```
+```
 GET catalogo/_analyze
 {
   "analyzer": "simple", 
   "text": "Eu nasci há 10 mil (sim, isso mesmo, 10 mil) anos atrás"
 }
-
+```
+```
 GET catalogo/_analyze
 {
   "analyzer": "whitespace", 
   "text": "Eu nasci há 10 mil (sim, isso mesmo, 10 mil) anos atrás"
 }
-
+```
+```
 GET catalogo/_analyze
 {
   "analyzer": "portuguese", 
   "text": "Eu nasci há 10 mil (sim, isso mesmo, 10 mil) anos atrás"
 }
-
+```
+```
 PUT /catalogo_v2
 {
   "settings": {
@@ -70,7 +74,8 @@ PUT /catalogo_v2
     }
   }
 }
-
+```
+```
 POST /catalogo_v2/_doc/1
 {
     "nome": "João Silva",
@@ -80,8 +85,10 @@ POST /catalogo_v2/_doc/1
     "estado": "SP",
     "país": "Brasil"
 }
-
+```
+```
 GET catalogo/_search?q=musica
-
+```
+```
 GET catalogo_v2/_search?q=MÚSICAS
-
+```

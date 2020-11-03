@@ -12,9 +12,9 @@ choco install curl --version 7.73.0
 
 ## Inicialização
 * executar `kibana-7.4.2-windows-x86_64\bin\kibana.bat`
-    * testar fazendo um GET em `http://localhost:5601/`
+    * testar fazendo um GET em [http://localhost:5601/](http://localhost:5601/)
 * executar `elasticsearch-7.4.2\bin\elasticsearch.bat`
-    * testar fazendo um GET em `http://localhost:9200/`
+    * testar fazendo um GET em [http://localhost:9200/](http://localhost:9200/)
 ***
 ## Aula 1
 * O que é e para que serve o ElasticSearch.
@@ -32,3 +32,14 @@ choco install curl --version 7.73.0
 * Que podemos especificar o campo na busca usando `campo:termo`.
 * ElasticSearch retorna 10 resultados por padrão.
 * A entender as estatísticas que são parte da resposta de requisições de busca, como tempo de resposta e hits.
+
+## Aula 4
+* Como verificar os mappings para nossos documentos.
+* Tipos de dados existentes do ElasticSearch.
+* Inferência de tipos pelo ElasticSearch.
+
+## Aula 5
+* Como a busca exata e a busca de texto cheio são diferentes.
+* O que são e como usar os analyzers para incrementar nossas buscas.
+* A verificar como um analyzer vai indexar um determinado texto.
+* Como alterar o analyzer padrão para português e melhorar nossas buscas.
