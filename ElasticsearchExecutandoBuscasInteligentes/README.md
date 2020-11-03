@@ -21,3 +21,14 @@ choco install curl --version 7.73.0
 * Como fazer uma instalação básica do ElasticSeach a ser usada em uma única máquina.
 * Como instalar o Kibana e o cURL.
 * Como utilizar um cliente REST para criar e localizar documentos por identificador, listar todos os documentos ou aplicar um valor simples para consulta.
+
+## Aula 2
+* O que é um índice, tipo e documento.
+* Como utilizar a API Rest para operações de criação, atualização, remoção e verificação de existência de documentos no ElasticSearch.
+* A analogia entre ElasticSearch e um banco de dados relacionais.
+* O que são shards, réplicas e qual a sua importância.
+
+## Aula 3
+* Que podemos especificar o campo na busca usando `campo:termo`.
+* ElasticSearch retorna 10 resultados por padrão.
+* A entender as estatísticas que são parte da resposta de requisições de busca, como tempo de resposta e hits.
