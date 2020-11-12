@@ -26,8 +26,6 @@
 
 ## Aula 4
 
-### Se você fez o exercício Será que o Miguel entendeu a aula?, vai lembrar o que aprendemos. Para fixar ainda mais, listamos os tópicos dessa aula:
-
 * Existe uma hierarquia grande de classes que representam exceções. Por exemplo, ArithmeticException é filha de RuntimeException, que herda de Exception, que por sua vez é filha da classe mais ancestral das exceções, Throwable. Conhecer bem essa hierarquia significa saber utilizar exceções em sua aplicação.
 * Throwable é a classe que precisa ser extendida para que seja possível jogar um objeto na pilha (através da palavra reservada throw)
 * É na classe Throwable que temos praticamente todo o código relacionada às exceções, inclusive getMessage() e printStackTrace(). Todo o resto da hierarquia apenas possui algumas sobrecargas de construtores para comunicar mensagens específicas
