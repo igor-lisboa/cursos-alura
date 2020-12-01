@@ -20,3 +20,9 @@
 * A criar instâncias com imagens já existentes
 * Como criar uma instância customizada, a partir de um script
 * Como ajustar as regras de acesso da nossa instância
+## Aula 4
+* Como criar uma imagem da nossa instância
+* A usar a nosso própria imagem para a criação de uma nova instância
+* Como aplicar security groups já existentes à nova instância
+* Como atribuir um IP fixo para a nossa instância, através do Elastic IP
+* O funcionamento e os custos do Elastic IP
