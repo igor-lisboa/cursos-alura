@@ -35,3 +35,16 @@
 * Como definir as variáveis de ambiente
 * Como funciona a página de cadastro
 * A gerar e testar a imagem final da nossa instância, para o ambiente de produção
+## Aula 7
+* Um pouco do funcionamento do Load Balancing
+* O que é e como criar um Application Load Balancer
+* O que é e como criar Target Groups
+* O que é e como criar uma Launch Configuration
+* Com a Launch Configuration criada, como criar e configurar um Auto Scaling Group
+* A testar o ambiente com o Load Balancing e Auto Scaling
+* Como associar um domínio ao nosso Load Balancer, com o Freenom
+* Políticas de Auto Scaling
+## Aula 8
+* Como instalar a AWS CLI
+* Como criar e configurar um usuário para a AWS CLI
+* Como utilizar a AWS CLI com os serviços EC2, inclusive parando e iniciando instâncias
