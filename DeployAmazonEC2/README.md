@@ -26,3 +26,8 @@
 * Como aplicar security groups já existentes à nova instância
 * Como atribuir um IP fixo para a nossa instância, através do Elastic IP
 * O funcionamento e os custos do Elastic IP
+## Aula 5
+* O serviço Amazon RDS
+* Como criar e configurar um database no Amazon RDS, utilizando o Free Tier
+* Como separar a nossa aplicação em uma instância para o servidor e uma para o banco de dados
+* Como configurar a nossa instância EC2 para se comunicar com o database do RDS
