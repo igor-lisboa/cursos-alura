@@ -31,3 +31,7 @@
 * Como criar e configurar um database no Amazon RDS, utilizando o Free Tier
 * Como separar a nossa aplicação em uma instância para o servidor e uma para o banco de dados
 * Como configurar a nossa instância EC2 para se comunicar com o database do RDS
+## Aula 6
+* Como definir as variáveis de ambiente
+* Como funciona a página de cadastro
+* A gerar e testar a imagem final da nossa instância, para o ambiente de produção
