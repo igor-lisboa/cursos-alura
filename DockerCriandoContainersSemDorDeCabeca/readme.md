@@ -1,3 +1,4 @@
+* https://cursos.alura.com.br/course/docker-e-docker-compose
 # Aula 1
 * conheceu a ideia de virtualização,
 * entendeu o conceito de containers,
